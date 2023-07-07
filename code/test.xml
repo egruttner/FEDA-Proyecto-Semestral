@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+    <article mdate="2017-05-23" key="conf/www/HeMLYW07">
+        <author>Hai He</author>
+        <author>Weiyi Meng</author>
+        <author>Yiyao Lu</author>
+        <author>Clement T. Yu</author>
+        <author>Zonghuan Wu</author>
+        <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
+        <pages>133-155</pages>
+        <year>2007</year>
+        <journal>World Wide Web</journal>
+        <number>2</number>
+        <ee>https://doi.org/10.1007/s11280-006-0010-9</ee>
+        <url>db/journals/www/www10.html#HeMLYW07</url>
+    </article>
+
+    <article mdate="2017-05-23" key="conf/www/otro2">
+        <author>Hai He</author>
+        <author>Gruttner</author>
+        <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
+        <pages>133-155</pages>
+        <year>2007</year>
+        <journal>World Wide Web</journal>
+        <number>2</number>
+        <ee>https://doi.org/10.1007/s11280-006-0010-9</ee>
+        <url>db/journals/www/www10.html#HeMLYW07</url>
+    </article>
+
+    <article mdate="2017-05-23" key="conf/www/otro2">
+        <author>Hai He</author>
+        <author>Gruttner</author>
+        <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
+        <pages>133-155</pages>
+        <year>2007</year>
+        <journal>World Wide Web</journal>
+        <number>2</number>
+        <ee>https://doi.org/10.1007/s11280-006-0010-9</ee>
+        <url>db/journals/www/www10.html#HeMLYW07</url>
+    </article>
+
+    <article mdate="2017-05-23" key="conf/www/otro2">
+        <author>Hai He</author>
+        <author>Gruttner</author>
+        <author>Clement T. Yu</author>
+        <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
+        <pages>133-155</pages>
+        <year>2007</year>
+        <journal>World Wide Web</journal>
+        <number>2</number>
+        <ee>https://doi.org/10.1007/s11280-006-0010-9</ee>
+        <url>db/journals/www/www10.html#HeMLYW07</url>
+    </article>
+
+    <article mdate="2017-05-23" key="conf/www/otro2">
+        <author>Hai He</author>
+        <author>Gruttner</author>
+        <author>Clement T. Yu</author>
+        <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
+        <pages>133-155</pages>
+        <year>2007</year>
+        <journal>World Wide Web</journal>
+        <number>2</number>
+        <ee>https://doi.org/10.1007/s11280-006-0010-9</ee>
+        <url>db/journals/www/www10.html#HeMLYW07</url>
+    </article>
+
+
+    <inproceedings mdate="2019-07-30" key="www/org/mitre/future">
+        <author>Arnon Rosenthal</author>
+        <title>The Future of Classic Data Administration: Objects + Databases + CASE</title>
+        <booktitle>SWEE</booktitle>
+        <year>1998</year>
+        <url>db/conf/swee/swee1998.html</url>
+        <crossref>conf/swee/1998</crossref>
+        <ee>http://www.mitre.org/support/swee/rosenthal.html</ee>
+    </inproceedings>
+
+
+
+
+    <proceedings mdate="2021-04-30" key="conf/coopis/2003">
+        <editor>Robert Meersman</editor>
+        <editor>Zahir Tari</editor>
+        <editor>Douglas C. Schmidt</editor>
+        <title>On The Move to Meaningful Internet Systems 2003: CoopIS, DOA, and ODBASE - OTM Confederated International Conferences, CoopIS, DOA, and ODBASE 2003, Catania, Sicily, Italy, November 3-7, 2003</title>
+        <booktitle>OTM</booktitle>
+        <series href="db/series/lncs/index.html">Lecture Notes in Computer Science</series>
+        <volume>2888</volume>
+        <publisher>Springer</publisher>
+        <year>2003</year>
+        <isbn>3-540-20498-9</isbn>
+        <ee>https://doi.org/10.1007/b94348</ee>
+        <url>db/conf/coopis/coopis2003.html</url>
+    </proceedings>
+
+    <book mdate="2017-08-22" key="conf/xps/1991">
+        <editor>Roman Cunis</editor>
+        <editor>Andreas G&uuml;nter</editor>
+        <editor>Helmut Strecker</editor>
+        <title>Das PLAKON-Buch, Ein Expertensystemkern f&uuml;r Planungs- und Konfigurierungsaufgaben in technischen Dom&auml;nen</title>
+        <series href="db/series/ifb/index.html">Informatik-Fachberichte</series>
+        <volume>266</volume>
+        <publisher>Springer</publisher>
+        <year>1991</year>
+        <isbn>978-3-540-53683-3</isbn>
+        <isbn>978-3-662-06485-6</isbn>
+        <ee>https://doi.org/10.1007/978-3-662-06485-6</ee>
+        <url>db/conf/xps/plakon1991.html</url>
+    </book>
+
+    <incollection mdate="2017-06-08" key="conf/xps/Strecker91">
+        <author>Helmut Strecker</author>
+        <title>Das Projekt TEX-K.</title>
+        <pages>4-11</pages>
+        <year>1991</year>
+        <crossref>conf/xps/1991</crossref>
+        <booktitle>Das PLAKON-Buch</booktitle>
+        <url>db/conf/xps/plakon1991.html#Strecker91</url>
+    </incollection>
+
+    <phdthesis mdate="2021-07-17" key="books/sp/Schmidt20">
+        <author>Elisabeth Schmidt</author>
+        <title>Effects of Thermal Stimulation during Passive Driver Fatigue</title>
+        <publisher>Springer Vieweg</publisher>
+        <year>2020</year>
+        <pages>1-230</pages>
+        <school>Chemnitz University of Technology, Germany</school>
+        <isbn>978-3-658-28157-1</isbn>
+        <ee>https://doi.org/10.1007/978-3-658-28158-8</ee>
+        <ee>https://d-nb.info/1195457022</ee>
+    </phdthesis>
+
+    <mastersthesis mdate="2002-01-03" key="phd/Ylonen94">
+        <author>Tatu Yl&ouml;nen</author>
+        <title>Shadow Paging Is Feasible.</title>
+        <year>1994</year>
+        <school>Helsinki University of Technology, Department of Computer Science</school>
+    </mastersthesis>
+
+    <www mdate="2021-12-17" key="homepages/308/9816">
+        <author>Ana Harumi Grota Suzuki</author>
+        <title>Home Page</title>
+    </www>
+
+    <data mdate="2023-03-15" key="data/10/Lu22c">
+        <author orcid="0000-0001-9742-4173">Peggy Joy Lu</author>
+        <title>MI3.</title>
+        <year>2022</year>
+        <month>May</month>
+        <ee>https://doi.org/10.21227/0ndm-6g50</ee>
+        <publisher>IEEE DataPort</publisher>
+    </data>
+
+
+</dblp>
