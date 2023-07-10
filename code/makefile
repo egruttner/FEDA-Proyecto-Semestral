@@ -4,15 +4,16 @@ CFLAGS = -std=c++14 -O2
 SRCS = main.cpp 
 OBJS = $(SRCS:.cpp=.o)
 
-LDLIBS="grafos.cpp"
+LDLIBS="grafos.cpp" "clase_lista.cpp" "clase_matriz.cpp"
 
-TEST_CASES_NUMBER := $(shell seq 1 1) #rango de archivos de input y output
+TEST_CASES_NUMBER := $(shell seq 1 5) #rango de archivos de input y output
 
-RANGE = 1#distintas tareas a probar
+RANGE = 1 2 3 4#distintas tareas a probar
 
-# 1 MATRIZ DE ADYACENCIA
-# 2 LISTA DE ADYACENCIA
-
+# 1 CREA MATRIZ DE ADYACENCIA
+# 2 CREA LISTA DE ADYACENCIA
+# 3 CALCULA COAUTORÍA MATRIZ DE ADYACENCIA
+# 4 CALCULA COAUTORÍA LISTA DE ADYACENCIA
 
 INPUT_PREFIX := datasets/input$(num_dataset)/input
 

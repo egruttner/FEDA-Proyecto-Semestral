@@ -1,9 +1,13 @@
 #Individuales
-python3 plot.py csv/distancia-clasica-g-vs-g-results.csv clasica "Distancia usando clásica - Alicia vs Metamorfosis"
-python3 plot.py csv/distancia-adaptiva-g-vs-g-results.csv adaptiva "Distancia usando adaptativa - Alicia vs Metamorfosis"
-python3 plot_dos.py csv/distancia-clasica-g-vs-g-results.csv csv/distancia-adaptiva-g-vs-g-results.csv clásica adaptiva "Clásica vs Adaptativa - Alicia vs Metamorfosis"
+python3 plot.py csv/creaMatrizAdyacencia-results.csv MatrizAdyacencia "Creación de Matriz de Adyacencia"
+python3 plot.py csv/creaListaAdyacencia-results.csv ListaAdyacencia "Creación de Lista de Adyacencia"
+
+python3 plot.py csv/calculaCoautoriaMatrizAdyacencia-results.csv MatrizAdyacencia "Cálculo de Coautoría - Matriz de Adyacencia"
+python3 plot.py csv/calculaCoautoriaListaAdyacencia-results.csv ListaAdyacencia "Cálculo de Coautoría - Lista de Adyacencia"
+
+python3 plot_dos.py csv/creaMatrizAdyacencia-results.csv csv/creaListaAdyacencia-results.csv Matriz Lista "Creación de Estructuras - Matriz vs Lista"
+python3 plot_dos.py csv/calculaCoautoriaMatrizAdyacencia-results.csv csv/calculaCoautoriaListaAdyacencia-results.csv Matriz Lista "Cálculo de Coautoría - Matriz vs Lista"
 
 
-python3 plot.py csv/distancia-clasica-g-vs-ag-results.csv clasica "Distancia usando clásica - Alicia vs Alicia con cambios"
-python3 plot.py csv/distancia-adaptiva-g-vs-ag-results.csv adaptiva "Distancia usando adaptativa - Alicia vs Alicia con cambios"
-python3 plot_dos.py csv/distancia-clasica-g-vs-ag-results.csv csv/distancia-adaptiva-g-vs-ag-results.csv clásica adaptiva "Clásica vs Adaptativa - Alicia vs Alicia con cambios"
+
+

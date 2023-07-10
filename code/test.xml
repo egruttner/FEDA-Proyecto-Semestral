@@ -17,7 +17,20 @@
     </article>
 
     <article mdate="2017-05-23" key="conf/www/otro2">
-        <author>Hai He</author>
+        <author>Zonghuan Wu</author>
+        <author>Gruttner</author>
+        <author>Weiyi Meng</author>
+        <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
+        <pages>133-155</pages>
+        <year>2007</year>
+        <journal>World Wide Web</journal>
+        <number>2</number>
+        <ee>https://doi.org/10.1007/s11280-006-0010-9</ee>
+        <url>db/journals/www/www10.html#HeMLYW07</url>
+    </article>
+
+    <article mdate="2017-05-23" key="conf/www/otro2">
+        <author>Weiyi Meng</author>
         <author>Gruttner</author>
         <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
         <pages>133-155</pages>
@@ -29,19 +42,7 @@
     </article>
 
     <article mdate="2017-05-23" key="conf/www/otro2">
-        <author>Hai He</author>
-        <author>Gruttner</author>
-        <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
-        <pages>133-155</pages>
-        <year>2007</year>
-        <journal>World Wide Web</journal>
-        <number>2</number>
-        <ee>https://doi.org/10.1007/s11280-006-0010-9</ee>
-        <url>db/journals/www/www10.html#HeMLYW07</url>
-    </article>
-
-    <article mdate="2017-05-23" key="conf/www/otro2">
-        <author>Hai He</author>
+        <author>Yiyao Lu</author>
         <author>Gruttner</author>
         <author>Clement T. Yu</author>
         <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
@@ -55,7 +56,7 @@
 
     <article mdate="2017-05-23" key="conf/www/otro2">
         <author>Hai He</author>
-        <author>Gruttner</author>
+        <author>Barbay</author>
         <author>Clement T. Yu</author>
         <title>Towards Deeper Understanding of the Search Interfaces of the Deep Web.</title>
         <pages>133-155</pages>

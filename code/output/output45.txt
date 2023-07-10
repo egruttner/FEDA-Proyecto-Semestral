@@ -1,0 +1,64 @@
+INICIO
+Tarea seleccionada: calculaCoautoriaListaAdyacencia
+0-Hai He 
+1-Weiyi Meng 
+2-Yiyao Lu 
+3-Clement T. Yu 
+4-Zonghuan Wu 
+5-Gruttner 
+6-Barbay 
+7-Arnon Rosenthal 
+
+Autor 0: (1, 1) (2, 1) (3, 2) (4, 1) (6, 1) 
+Autor 1: (2, 1) (3, 1) (4, 2) (5, 2) 
+Autor 2: (3, 2) (4, 1) (5, 1) 
+Autor 3: (4, 1) (5, 1) (6, 1) 
+Autor 4: (5, 1) 
+Autor 5: 
+Autor 6: 
+Autor 7: 
+Autor 8: 
+Autor 9: 
+Autor 10: 
+Autor 11: 
+Autor 12: 
+Autor 13: 
+Autor 14: 
+Autor 15: 
+Autor 16: 
+Autor 17: 
+Autor 18: 
+Autor 19: 
+Autor 20: 
+Autor 21: 
+Autor 22: 
+Autor 23: 
+Autor 24: 
+Autor 25: 
+Autor 26: 
+Autor 27: 
+Autor 28: 
+Autor 29: 
+Autor 30: 
+Autor 31: 
+Autor 32: 
+Autor 33: 
+Autor 34: 
+Autor 35: 
+Autor 36: 
+Autor 37: 
+Autor 38: 
+Autor 39: 
+Autor 40: 
+Autor 41: 
+Autor 42: 
+Autor 43: 
+Autor 44: 
+Autor 45: 
+Autor 46: 
+Autor 47: 
+Autor 48: 
+Autor 49: 
+PARES: 4
+IMPARES: 12
+MAYOR CANTIDAD DE COAUTORIA: 2

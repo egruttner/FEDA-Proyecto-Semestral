@@ -1,0 +1,21 @@
+INICIO
+Tarea seleccionada: creaListaAdyacencia
+0-Hai He 
+1-Weiyi Meng 
+2-Yiyao Lu 
+3-Clement T. Yu 
+4-Zonghuan Wu 
+5-Gruttner 
+6-Barbay 
+7-Arnon Rosenthal 
+
+Autor 0: (1, 1) (2, 1) (3, 2) (4, 1) (6, 1) 
+Autor 1: (2, 1) (3, 1) (4, 2) (5, 2) 
+Autor 2: (3, 2) (4, 1) (5, 1) 
+Autor 3: (4, 1) (5, 1) (6, 1) 
+Autor 4: (5, 1) 
+Autor 5: 
+Autor 6: 
+Autor 7: 
+Autor 8: 
+Autor 9: 

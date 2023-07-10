@@ -8,6 +8,8 @@
 
 using namespace std;
 
+int multiplicador=10;
+
 //PARA TOMAR EL TIEMPO
 template <typename Func>
 long long execution_time_ms(Func function, string tarea, int id_dataset) 
@@ -21,65 +23,62 @@ long long execution_time_ms(Func function, string tarea, int id_dataset)
 }
 
 
-//1-Matriz de adyacencia
-
-
-//2-Lista de adyacencia
-
-
-
-
 
 
 // PROCESOS
-//1 - Ejecución clásica - Gutenberg vs Gutenberg
-void matrizAdyacencia(int id_dataset)
+//1 - Creación de Matriz de Adyacencia
+void creaMatrizAdyacencia(int id_dataset)
 {
+  int tam_matriz = id_dataset*multiplicador;
+  MatrizAdyacencia matriz(tam_matriz);
+  matriz = crea_matrizAdyacencia(tam_matriz,matriz);
 
-    /*
-
-    if (id_dataset>5) return;
-
-    //Lectura de archivo 1 en string 1
-    stringstream strStream1;
-    ifstream file1;
-    string filename1 = "datasets/input/g_vs_g/alicia" + to_string(id_dataset) + ".txt";
-    file1.open(filename1);
-    if(!file1.is_open()){
-        cout << "ERROR!!! el archivo " << filename1 << " no se pudo abrir\n";
-        return;
-    }
-    strStream1 << file1.rdbuf();
-    string string1 = strStream1.str(); 
-
-    //Lectura de archivo 2 en string 2
-    stringstream strStream2;
-    ifstream file2; //ARCHIVO DE ENTRADA 2
-    string filename2 = "datasets/input/g_vs_g/metamorfosis" + to_string(id_dataset) + ".txt";
-    file2.open(filename2);
-    if(!file2.is_open()){
-        cout << "ERROR!!! el archivo " << filename2 << " no se pudo abrir\n";
-        return;
-    }
-    strStream2 << file2.rdbuf();
-    string string2 = strStream2.str(); 
-
-    //Calcula distancia entre strings
-    cout << clasica(string1,string2) << endl;
-
-    */
-
-
-    return;
 }
 
+//2 - Creación de Lista de Adyacencia
+void creaListaAdyacencia(int id_dataset)
+{
+  int tam_lista = id_dataset*multiplicador;
+  ListaAdyacencia lista(tam_lista);
+  lista = crea_listaAdyacencia(tam_lista,lista);
+}
+
+
+//3 - Cálculo de Coautoría - Matriz de Adyacencia
+void calculaCoautoriaMatrizAdyacencia(int id_dataset, MatrizAdyacencia matriz)
+{
+  matriz.cuenta_coautoria();
+}
+
+//4 - Cálculo de Coautoría - Lista de Adyacencia
+void calculaCoautoriaListaAdyacencia(int id_dataset, ListaAdyacencia lista)
+{
+  lista.cuenta_coautoria();
+}
 
 
 
 //CENTRO DE LLAMADA DE FUNCIONES
 void centro_tareas(string tarea, int id_dataset)
 {
-    if (tarea=="matrizAdyacencia") {return matrizAdyacencia(id_dataset); } 
+    if (tarea=="creaMatrizAdyacencia") {return creaMatrizAdyacencia(id_dataset); } 
+    if (tarea=="calculaCoautoriaMatrizAdyacencia") 
+    {
+      int tam_matriz = id_dataset*multiplicador;
+      MatrizAdyacencia matriz(tam_matriz);
+      matriz = crea_matrizAdyacencia(tam_matriz,matriz);
+      return calculaCoautoriaMatrizAdyacencia(id_dataset,matriz); 
+    } 
+    if (tarea=="creaListaAdyacencia") {return creaListaAdyacencia(id_dataset); } 
+
+    if (tarea=="calculaCoautoriaListaAdyacencia") 
+    {
+      int tam_lista = id_dataset*multiplicador;
+      ListaAdyacencia lista(tam_lista);
+      lista = crea_listaAdyacencia(tam_lista,lista);
+      return calculaCoautoriaListaAdyacencia(id_dataset,lista); 
+    } 
+
 }
 
 //BLOQUE PRINCIPAL
@@ -89,20 +88,19 @@ int main(int argv, char* argc[]) {
   int n; //tamaño muestras
   int id_proceso;
 
+
   int numero_de_experimentos;
   string dir_csv;
   string tarea_seleccionada;
   string nombre_archivo_salida;
-
   dir_csv = "csv/";
 
   cout<<"INICIO"<<endl;
 
+  //MatrizAdyacencia matriz(1000);
+  //matriz = crea_matrizAdyacencia(1000,matriz);
+  //matriz.cuenta_coautoria();
 
-
-  carga_xml();
-
-  //carga_matrizAdyacencia();
 
 
 
@@ -110,9 +108,10 @@ int main(int argv, char* argc[]) {
   id_proceso=atoi(argc[1]);
   switch(id_proceso){
 
-    case 1: tarea_seleccionada = "matrizAdyacencia"; break;
-    case 2: tarea_seleccionada = "listaAdyacencia"; break;
-
+    case 1: tarea_seleccionada = "creaMatrizAdyacencia"; break;
+    case 2: tarea_seleccionada = "creaListaAdyacencia"; break;
+    case 3: tarea_seleccionada = "calculaCoautoriaMatrizAdyacencia"; break;
+    case 4: tarea_seleccionada = "calculaCoautoriaListaAdyacencia"; break;
 
     default: tarea_seleccionada = ""; break;
   }
@@ -123,23 +122,24 @@ int main(int argv, char* argc[]) {
     int id_dataset = atoi(argc[4]);
     switch(atoi(argc[4]))
     {
-      case 1: n = 100; break;
-      case 2: n = 200; break;
-      case 3: n = 300; break;
-      case 4: n = 400; break;
-      case 5: n = 500; break;
+      case 1: n = 10000; break;
+      case 2: n = 20000; break;
+      case 3: n = 30000; break;
+      case 4: n = 40000; break;
+      case 5: n = 50000; break;
 
       default: n = 0; break;
     }
 
-
     cout<<"Tarea seleccionada: "<< tarea_seleccionada<<endl;
+
+
 
     nombre_archivo_salida = dir_csv + tarea_seleccionada + "-results.csv";
     ofstream outfile(nombre_archivo_salida,std::ios::app);
 
     double mm_total_time = 0;
-    int numero_de_experimentos=10;
+    int numero_de_experimentos=1;
     for(int j = 0; j < numero_de_experimentos; j++)
     { 
 
